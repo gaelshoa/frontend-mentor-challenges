@@ -38,12 +38,13 @@ body {
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 16px;
+    color: hsl(218, 44%, 22%);
 }
 
 .card-container p {
     font-weight: 400;
     font-size: 15px;
-    color: #7D889E;
+    color: hsl(220, 15%, 55%);
     margin-bottom: 24px;
 }
 
