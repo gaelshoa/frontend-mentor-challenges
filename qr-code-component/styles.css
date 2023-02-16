@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.container {
+.card-container {
     background-color: hsl(0, 0%, 100%);
     width: 320px;
     height: 497px;
@@ -22,25 +22,25 @@ body {
     filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.0477));
 }
 
-.container img {
+.card-container img {
     width: 288px;
     height: 288px;
     border-radius: 10px;
     margin-bottom: 24px;
 }
 
-.container p {
+.card-container h1, p {
     text-align: center;
     padding: 0 16px;
 }
 
-.container .heading {
+.card-container h1 {
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 16px;
 }
 
-.container .text {
+.card-container p {
     font-weight: 400;
     font-size: 15px;
     color: #7D889E;
